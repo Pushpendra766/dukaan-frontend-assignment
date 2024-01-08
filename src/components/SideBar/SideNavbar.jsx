@@ -17,6 +17,7 @@ const SideNavbar = () => {
               iconName={item.name}
               text={item.text}
               selected={selected}
+              key={item.name}
             />
           );
         })}

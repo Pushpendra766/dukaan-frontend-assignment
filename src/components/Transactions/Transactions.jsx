@@ -68,7 +68,7 @@ const Transaction = () => {
           </div>
         </div>
 
-        <div className="mt-[10px] ">
+        <div className="mt-[10px] overflow-scroll">
           <table
             className="w-full  text-[14px] border-collapse"
             {...getTableProps()}
