@@ -3,10 +3,10 @@ import Card from "./Card";
 
 const Overview = () => {
   return (
-    <div className="p-8">
+    <div className="p-2 sm:p-8">
       <div className="flex items-center justify-between">
-        <div className="text-[20px] font-medium  ">Overview</div>
-        <div className="flex items-center gap-[6px] py-[6px] px-[10px] border border-[#ccc] bg-white rounded-[4px] text-[#3f3f46] cursor-pointer">
+        <div className="text-lg sm:text-[20px] font-medium">Overview</div>
+        <div className="flex items-center gap-[6px] py-[6px] px-[10px] border border-[#ccc] bg-white rounded-[4px] text-[#3f3f46] cursor-pointer text-sm">
           <span>Last month</span>
           <svg
             height="16px"

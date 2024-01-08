@@ -5,7 +5,7 @@ const SideItems = ({ iconName, text, selected }) => {
     <li
       className={`${
         text === selected && "bg-[#ffffff0d] font-semibold text-white"
-      } hover:cursor-pointer hover:bg-[#ffffff0d] flex items-center gap-3 px-4 py-2 rounded-md text-sm`}
+      } hover:cursor-pointer hover:bg-[#ffffff0d] flex items-center gap-3 px-1 sm:px-4 py-2 rounded-md text-sm`}
     >
       <a href="/" className="menu-item__icon">
         <span className="text-white">
@@ -16,7 +16,7 @@ const SideItems = ({ iconName, text, selected }) => {
           ></iconify-icon>
         </span>
       </a>
-      <div className="">{text}</div>
+      <div className="hidden sm:flex">{text}</div>
     </li>
   );
 };
