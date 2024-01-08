@@ -2,127 +2,127 @@
   {
     "order_ID": "#200006",
     "order_date": "31 May, 2023",
-    "order_amount": "₹2000.00",
-    "transaction_fees": "₹10.00"
+    "order_amount": "₹2000",
+    "transaction_fees": "₹10"
   },
   {
     "order_ID": "#200005",
     "order_date": "30 May, 2023",
-    "order_amount": "₹1800.00",
-    "transaction_fees": "₹9.00"
+    "order_amount": "₹1800",
+    "transaction_fees": "₹9"
   },
   {
     "order_ID": "#200004",
     "order_date": "29 May, 2023",
-    "order_amount": "₹1600.00",
-    "transaction_fees": "₹8.00"
+    "order_amount": "₹1600",
+    "transaction_fees": "₹8"
   },
   {
     "order_ID": "#200003",
     "order_date": "28 May, 2023",
-    "order_amount": "₹1400.00",
-    "transaction_fees": "₹7.00"
+    "order_amount": "₹1400",
+    "transaction_fees": "₹7"
   },
   {
     "order_ID": "#200002",
     "order_date": "27 May, 2023",
-    "order_amount": "₹1200.00",
-    "transaction_fees": "₹6.00"
+    "order_amount": "₹1200",
+    "transaction_fees": "₹6"
   },
   {
     "order_ID": "#200001",
     "order_date": "26 May, 2023",
-    "order_amount": "₹1000.00",
-    "transaction_fees": "₹5.00"
+    "order_amount": "₹1000",
+    "transaction_fees": "₹5"
   },
   {
     "order_ID": "#200000",
     "order_date": "25 May, 2023",
-    "order_amount": "₹800.00",
-    "transaction_fees": "₹4.00"
+    "order_amount": "₹800",
+    "transaction_fees": "₹4"
   },
   {
     "order_ID": "#199999",
     "order_date": "24 May, 2023",
-    "order_amount": "₹600.00",
-    "transaction_fees": "₹3.00"
+    "order_amount": "₹600",
+    "transaction_fees": "₹3"
   },
   {
     "order_ID": "#199998",
     "order_date": "23 May, 2023",
-    "order_amount": "₹400.00",
-    "transaction_fees": "₹2.00"
+    "order_amount": "₹400",
+    "transaction_fees": "₹2"
   },
   {
     "order_ID": "#199997",
     "order_date": "22 May, 2023",
-    "order_amount": "₹200.00",
-    "transaction_fees": "₹1.00"
+    "order_amount": "₹200",
+    "transaction_fees": "₹1"
   },
   {
     "order_ID": "#199996",
     "order_date": "21 May, 2023",
-    "order_amount": "₹0.00",
-    "transaction_fees": "₹0.00"
+    "order_amount": "₹0",
+    "transaction_fees": "₹0"
   },
   {
     "order_ID": "#199995",
     "order_date": "20 May, 2023",
-    "order_amount": "₹1800.00",
-    "transaction_fees": "₹9.00"
+    "order_amount": "₹1800",
+    "transaction_fees": "₹9"
   },
   {
     "order_ID": "#199994",
     "order_date": "19 May, 2023",
-    "order_amount": "₹1600.00",
-    "transaction_fees": "₹8.00"
+    "order_amount": "₹1600",
+    "transaction_fees": "₹8"
   },
   {
     "order_ID": "#199993",
     "order_date": "18 May, 2023",
-    "order_amount": "₹1400.00",
-    "transaction_fees": "₹7.00"
+    "order_amount": "₹1400",
+    "transaction_fees": "₹7"
   },
   {
     "order_ID": "#199992",
     "order_date": "17 May, 2023",
-    "order_amount": "₹1200.00",
-    "transaction_fees": "₹6.00"
+    "order_amount": "₹1200",
+    "transaction_fees": "₹6"
   },
   {
     "order_ID": "#199991",
     "order_date": "16 May, 2023",
-    "order_amount": "₹1000.00",
-    "transaction_fees": "₹5.00"
+    "order_amount": "₹1000",
+    "transaction_fees": "₹5"
   },
   {
     "order_ID": "#199990",
     "order_date": "15 May, 2023",
-    "order_amount": "₹800.00",
-    "transaction_fees": "₹4.00"
+    "order_amount": "₹800",
+    "transaction_fees": "₹4"
   },
   {
     "order_ID": "#199989",
     "order_date": "14 May, 2023",
-    "order_amount": "₹600.00",
-    "transaction_fees": "₹3.00"
+    "order_amount": "₹600",
+    "transaction_fees": "₹3"
   },
   {
     "order_ID": "#199988",
     "order_date": "13 May, 2023",
-    "order_amount": "₹400.00",
-    "transaction_fees": "₹2.00"
+    "order_amount": "₹400",
+    "transaction_fees": "₹2"
   },
   {
     "order_ID": "#199987",
     "order_date": "12 May, 2023",
-    "order_amount": "₹200.00",
-    "transaction_fees": "₹1.00"
+    "order_amount": "₹200",
+    "transaction_fees": "₹1"
   },
   {
     "order_ID": "#199986",
     "order_date": "11 May, 2023",
-    "order_amount": "₹0.00",
-    "transaction_fees": "₹0.00"
+    "order_amount": "₹0",
+    "transaction_fees": "₹0"
   }
 ]

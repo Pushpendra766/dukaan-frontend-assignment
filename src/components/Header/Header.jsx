@@ -3,7 +3,7 @@ import React from "react";
 const Header = () => {
   return (
     <>
-      <div className="py-4 px-8  border-b border-[#ccc] flex justify-between bg-white   ">
+      <div className="px-2 sm:px-8 py-4 border-b border-[#ccc] flex justify-between bg-white">
         <div className="flex items-center gap-3">
           <div className="text-lg sm:text-[20px] font-medium ">Payouts</div>
           <div className="mt-1 flex gap-[6px] text-[12px] cursor:pointer text-[#71717a] items-center justify-center ">

@@ -73,7 +73,7 @@ const Transaction = () => {
             className="w-full  text-[14px] border-collapse"
             {...getTableProps()}
           >
-            <thead className="bg-[#f7f7f7] text-[#71717a] font-[400] text-left ">
+            <thead className="bg-[#f7f7f7] text-[#71717a] font-[400] text-left">
               {headerGroups.map((headerGroup, index) => (
                 <tr
                   className="flex justify-between items-center last:border-0 border-b-[2px] border-[#f7f7f7]"
