@@ -1,14 +1,24 @@
-import React from 'react'
+import React from "react";
 
-const SideItems = ({ iconName, text, }) => {
-    return (
-        <li className="hover:cursor-pointer hover:bg-[#ffffff0d] flex items-center gap-3 px-4 py-2 rounded-md mb-1 text-[14px]   ">
-            <a href="/" className="menu-item__icon">
-                <iconify-icon icon={`${iconName}`} width="20" height="20" style={{ color: "white" }}></iconify-icon>
-            </a>
-            <div className="">{text}</div>
-        </li>
-    )
-}
+const SideItems = ({ iconName, text, selected }) => {
+  return (
+    <li
+      className={`${
+        text === selected && "bg-[#ffffff0d] font-semibold text-white"
+      } hover:cursor-pointer hover:bg-[#ffffff0d] flex items-center gap-3 px-4 py-2 rounded-md text-sm`}
+    >
+      <a href="/" className="menu-item__icon">
+        <span className="text-white">
+          <iconify-icon
+            icon={`${iconName}`}
+            width="20"
+            height="20"
+          ></iconify-icon>
+        </span>
+      </a>
+      <div className="">{text}</div>
+    </li>
+  );
+};
 
-export default SideItems
+export default SideItems;

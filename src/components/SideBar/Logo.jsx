@@ -12,8 +12,10 @@ const Logo = () => {
           />
         </div>
         <div className=" flex flex-col">
-          <div className="text-[15px] font-medium text-white">Nishyan</div>
-          <div className="text-sm underline text-[#ccc] hover:text-white ">
+          <div className="text-[15px] font-medium text-white cursor-pointer">
+            Nishyan
+          </div>
+          <div className="text-sm underline text-[#ccc] hover:text-white cursor-pointer">
             Visit store
           </div>
         </div>
