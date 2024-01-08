@@ -30,67 +30,40 @@ const Transaction = () => {
     useTable({ columns, data });
 
   return (
-    <section className="px-8">
-      <div className="text-[20px] font-medium">Transactions | This Month</div>
+    <section className="px-1 sm:px-8">
+      <div className="text-lg sm:text-[20px] font-medium">
+        Transactions | This Month
+      </div>
 
       <div className="mb-4 mt-5 bg-white rounded-md py-2 px-[10px] ">
         <div className="flex justify-between items-center">
-          <div className="py-[6px] pr-2 pl-3 border border-[#ccc] rounded-sm flex gap-[6px] items-center w-[240px] text-[#71717a]">
-            <svg
+          <div className="px-2 py-1 mr-2 border border-[#ccc] rounded-sm flex gap-1.5 items-center w-[240px] text-[#71717a]">
+            <iconify-icon
+              icon="ri:search-line"
               width="18"
               height="18"
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              strokeWidth="1.5"
-              stroke="currentColor"
-              className="svg-search-icon"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"
-              />
-            </svg>
+            ></iconify-icon>
             <input
               type="text"
               className="py-1 text-[14px] outline-none border-none w-full placeholder:text-[#71717a] "
               placeholder="Search by Order ID"
             />
           </div>
-          <div className="flex gap-5 ">
-            <div className="flex items-center gap-[6px] py-[6px] px-[10px] border border-[#ccc] rounded-sm">
-              Sort
-              <svg
-                height="16px"
-                width="16px"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                strokeWidth="1.5"
-                stroke="currentColor"
-                className="svg-up-down-icon"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M3 7.5L7.5 3m0 0L12 7.5M7.5 3v13.5m13.5 0L16.5 21m0 0L12 16.5m4.5 4.5V7.5"
-                />
-              </svg>
+          <div className="flex gap-2">
+            <div className="flex items-center gap-[6px] py-1 px-2 border border-[#ccc] rounded-sm">
+              <span className="hidden sm:flex">Sort</span>
+              <iconify-icon
+                icon="basil:sort-outline"
+                width="21"
+                height="21"
+              ></iconify-icon>
             </div>
             <button className="flex items-center gap-[6px] py-[6px] px-2 border border-[#ccc] rounded-sm cursor-pointer">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                fill="currentColor"
-                className="h-[22px] w-[22px]"
-              >
-                <path
-                  fillRule="evenodd"
-                  d="M12 2.25a.75.75 0 01.75.75v11.69l3.22-3.22a.75.75 0 111.06 1.06l-4.5 4.5a.75.75 0 01-1.06 0l-4.5-4.5a.75.75 0 111.06-1.06l3.22 3.22V3a.75.75 0 01.75-.75zm-9 13.5a.75.75 0 01.75.75v2.25a1.5 1.5 0 001.5 1.5h13.5a1.5 1.5 0 001.5-1.5V16.5a.75.75 0 011.5 0v2.25a3 3 0 01-3 3H5.25a3 3 0 01-3-3V16.5a.75.75 0 01.75-.75z"
-                  clipRule="evenodd"
-                />
-              </svg>
+              <iconify-icon
+                icon="material-symbols:download"
+                width="21"
+                height="21"
+              ></iconify-icon>
             </button>
           </div>
         </div>
@@ -109,7 +82,7 @@ const Transaction = () => {
                 >
                   {headerGroup.headers.map((column, columnIndex) => (
                     <th
-                      className={` py-[14px]  px-3 text-[#4d4d4d] ${
+                      className={`py-[14px] px-1 sm:px-3 text-[#4d4d4d] ${
                         columnIndex === 1 ? "ml-14" : ""
                       } ${columnIndex === 2 ? "ml-12" : ""}`}
                       key={columnIndex}
@@ -132,7 +105,7 @@ const Transaction = () => {
                   >
                     {row.cells.map((cell, cellIndex) => (
                       <td
-                        className={`last:text-right  last:pr-   py-[14px] px-3  ${
+                        className={`last:text-right  last:pr-   py-[14px] px-1 sm:px-3  ${
                           cellIndex === 0 ? "text-[#146eb4]" : ""
                         }`}
                         key={cellIndex}
@@ -147,7 +120,7 @@ const Transaction = () => {
             </tbody>
           </table>
         </div>
-        <Pagination />
+        {/* <Pagination /> */}
       </div>
     </section>
   );

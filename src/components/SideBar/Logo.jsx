@@ -2,12 +2,12 @@ import React from "react";
 
 const Logo = () => {
   return (
-    <div className="p-4 pb-5 flex justify-between">
+    <div className="px-1 sm:px-4 py-4 pb-5 flex justify-between">
       <div className="flex gap-3">
         <div className="">
           <img
             src="/pfp.jpg"
-            className="rounded-md h-10 w-10"
+            className="rounded-md h-8 w-8 sm:h-10 sm:w-10"
             alt="user logo"
           />
         </div>
