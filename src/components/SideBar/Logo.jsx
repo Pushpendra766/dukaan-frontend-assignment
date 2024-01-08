@@ -11,7 +11,7 @@ const Logo = () => {
             alt="user logo"
           />
         </div>
-        <div className=" flex flex-col">
+        <div className="flex-col hidden sm:flex">
           <div className="text-[15px] font-medium text-white cursor-pointer">
             Nishyan
           </div>
@@ -21,7 +21,7 @@ const Logo = () => {
         </div>
       </div>
 
-      <div className="user__dropdown">
+      <div className="user__dropdown hidden sm:flex">
         <iconify-icon
           icon="mingcute:down-fill"
           width="25"

@@ -16,7 +16,7 @@ const SideItems = ({ iconName, text, selected }) => {
           ></iconify-icon>
         </span>
       </a>
-      <div className="">{text}</div>
+      <div className="hidden sm:flex">{text}</div>
     </li>
   );
 };
