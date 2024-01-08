@@ -120,7 +120,7 @@ const Transaction = () => {
             </tbody>
           </table>
         </div>
-        {/* <Pagination /> */}
+        <Pagination />
       </div>
     </section>
   );
