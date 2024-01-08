@@ -2,6 +2,8 @@
 
 This is my submission for assignment for Frontend Developer role at Dukaan.
 
+Live Preview - https://dukaan7.netlify.app/
+
 ## Setup Instructions
 
 1.  Clone repository:
@@ -16,4 +18,3 @@ This is my submission for assignment for Frontend Developer role at Dukaan.
     ```bash
     npm run dev
     ```
-# dukaan-frontend-assignment
